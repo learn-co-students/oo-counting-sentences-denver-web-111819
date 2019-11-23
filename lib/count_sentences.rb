@@ -15,11 +15,11 @@ class String
   end
   #binding.pry
   def count_sentences 
-    separated = self.to_s.split(". ")
+    separated = self.to_s.split(". ").count
     #separated = self.to_s.split(/\s*.\s*!\s*?/)
 
     #binding.pry
-    separated.length
+    #separated.length
   end 
 
   #   #binding.pry
